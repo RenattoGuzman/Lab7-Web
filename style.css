@@ -1,0 +1,73 @@
+body {
+  background-color: #55adaf;
+}
+body header {
+  text-align: center;
+}
+body h1 {
+  background-color: #1E212B;
+  display: block;
+  margin: 0 auto;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+  width: 450px;
+  box-shadow: #1E212B;
+}
+body img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+body p {
+  text-align: center;
+}
+body figcaption {
+  text-align: center;
+}
+body a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body h2 {
+  text-align: center;
+  background-color: #1E212B;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  font-size: 30px;
+  color: white;
+}
+body ol {
+  text-align: center;
+}
+body ul {
+  text-align: center;
+}
+body li {
+  display: list-item;
+  text-align: center;
+  margin: 20px;
+  line-height: 1.5em; /* adjust as needed */
+}
+body details {
+  text-align: center;
+}
+
+.slide-in-left {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
