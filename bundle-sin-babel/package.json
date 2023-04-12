@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.30.0",
+    "sass": "^1.60.0",
+    "scss": "^0.2.4"
+  },
+  "name": "lab7-web",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  },
+  "scripts": {
+    "build": "babel bundle.js -o bundle-compiled.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
